@@ -14,7 +14,6 @@ This project demonstrates foundational firewall management skills and an underst
  4. [Test the rule](#4-test-the-rule)
  5. [Remove the test block rule](#5-remove-test-block-rule-to-restore-original-state)
  6. [Summary of firewall traffic filtering](#-firewall-traffic-filtering-summary)
- 7. [License](#-license)
 
 ---
 
@@ -65,7 +64,7 @@ This project demonstrates foundational firewall management skills and an underst
 <img width="1145" alt="13" src="https://github.com/user-attachments/assets/f749712f-a624-42bc-8422-1dc6e0ee25c9" />
 
 
-#### 🚫 Blocking a Specific Port (Example with Port 25 - Telnet)
+#### 🚫 Blocking a Specific Port (Example with Port 25 - SMTP)
 *Same steps as above, but select "Port" instead of "Program" in the rule creation process.*
 ![Block Port 25 for SMTP]
 <img width="1200" alt="10" src="https://github.com/user-attachments/assets/0c0b4e4b-005b-4541-99ed-cecd3906cd3b" />
@@ -86,9 +85,3 @@ Firewalls act as a barrier between your computer and potential threats from the 
 | Network Profiles  | Applies to Domain, Private, or Public networks |
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).  
-You are free to use, modify, and distribute this project in accordance with the license terms.
-
